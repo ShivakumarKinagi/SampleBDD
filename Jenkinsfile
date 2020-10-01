@@ -1,6 +1,6 @@
 node{
     stage('SCM Checkout'){
-    git 'https://github.com/aravinthansrinivasan/SampleBDD'
+    git 'https://github.com/aravinthansrinivasan/SampleBDD.git'
    }
   stage('Compile-Package'){
 def mvnHome = tool name: 'Maven-3.6.3', type: 'maven'
